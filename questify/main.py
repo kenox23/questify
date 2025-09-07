@@ -1,5 +1,5 @@
 import tkinter as tk
-from user_interface import user_interface
+from ui_tkinter import user_interface
 
 def main():
     root = tk.Tk()
