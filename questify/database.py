@@ -1,3 +1,4 @@
+import os
 import sqlite3
 
 # Connect to the database file
@@ -13,7 +14,6 @@ CREATE TABLE IF NOT EXISTS tasks (
 )
 """)
 conn.commit()
-
 
 def add_task(description):
     cursor.execute("INSERT INTO tasks (description, completed) VALUES (?, 0)", (description,))
