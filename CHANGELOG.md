@@ -6,9 +6,13 @@ All notable changes to this project will be documented in this file.
 - Improve database performance
 - Improve GUI
 - Add themes
-- Add sorting order
+- Add drag and sorting order
 
-## [0.1.0] - 2025-09-06
+## [0.1.2] - 2025-09-10
+### Added
+- Store task feature
+
+## [0.1.1] - 2025-09-06
 ### Added
 - Delete task feature
 
